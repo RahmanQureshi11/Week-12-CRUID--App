@@ -1,0 +1,31 @@
+body {
+    font-family: arial , sens-serif ;
+    background-color: lightblue;
+   
+  }
+  body {
+    background-image: url('https://as1.ftcdn.net/v2/jpg/04/64/18/04/1000_F_464180478_ucGhPe5jTk6sn95sZhgCYcrz2VO5W7Oq.jpg');
+    background-size: initial; /* Ensures the image covers the entire background */
+    background-position: center; /* Centers the image */
+   /* background-repeat: no-repeat; *//* Prevents the image from repeating */
+  }
+  h1{
+    color: #82eefd;
+  }
+  .container {
+    max-width: 600px;
+  }
+  #pcForm {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  #pcList .list-group-item {
+    border-bottom: 5px solid #ccc; /* Add a border between list items */
+    padding-bottom: 10px; /* Add some padding to improve spacing */
+  }
+  #pcList .list-group-item:last-child {
+    border-bottom: none; /* Remove the border from the last item to avoid extra line */
+  }

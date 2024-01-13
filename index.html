@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container mt-5">
+        <h1>Custom PC Builder</h1>
+        
+        <!-- Form to add/update PC configuration -->
+        <form id="pcForm" class="mt-4 mb-4">
+          <div class="form-group">
+            <label for="name">Name:</label>
+            <input type="text" class="form-control" id="name" name="name" required>
+          </div>
+          <div class="form-group">
+            <label for="cpu">CPU:</label>
+            <input type="text" class="form-control" id="cpu" name="cpu" required>
+          </div>
+          <div class="form-group">
+            <label for="gpu">GPU:</label>
+            <input type="text" class="form-control" id="gpu" name="gpu" required>
+          </div>
+          <div class="form-group">
+            <label for="ram">RAM:</label>
+            <input type="text" class="form-control" id="ram" name="ram" required>
+          </div>
+          <div class="form-group">
+            <label for="storage">Storage:</label>
+            <input type="text" class="form-control" id="storage" name="storage" required>
+          </div>
+          <div class="form-group">
+            <label for="price">Price:</label>
+            <input type="text" class="form-control" id="price" name="price" required>
+          </div>
+          <button type="submit" class="btn btn-primary">Save PC</button>
+          <button type="button" class="btn btn-secondary ml-2" id="resetForm">Reset Form</button>
+        </form>
+        
+        <!-- Display PC configurations -->
+        <ul id="pcList" class="list-group"></ul>
+      </div>
+    
+     <script src="node_modules/jquery/dist/jquery.min.js"></script>
+     <script src="index.js"></script>
+     <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+</body>
+</html>
